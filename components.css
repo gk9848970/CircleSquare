@@ -1,0 +1,350 @@
+.button__primary {
+    color: var(--color-white);
+    border-radius: .6rem;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    background: var(--color-primary-red);
+    transition: all .3s ease-in-out;
+}
+
+.button__primary:hover {
+    opacity: .8;
+}
+
+.button__secondary {
+    color: var(--color-black);
+    border-radius: .6rem;
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0,0,0,.12),0 2px 6px rgba(0,0,0,.16);
+    padding: 1rem 3rem;
+    background: var(--color-white);
+}
+/* ------------------------------------------------------------------------------ */
+.paymentCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-gray-4);
+    border-radius: 1rem;
+    padding: .8rem 5rem;
+}
+
+.paymentCard--2 {
+    padding: 1.2rem 5rem;
+}
+
+.paymentCard--2 > object {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1rem;
+}
+
+.paymentCard--2__details--para2 {
+    font-weight: 700;
+}
+
+.paymentCard--1 object {
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+/* --------------------CEO INFO BOX------------------------------------ */
+
+.personBox {
+    display: flex;
+    align-items: center;
+}
+
+.person__img__wrapper {
+    width: 8.8rem;
+    height: 8.8rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    background: skyblue;
+}
+
+.person__name {
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.person__about {
+    color: var(--color-gray-1);
+}
+
+/* ----------------------------------------------------------------- */
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 20px rgb(0 0 0 / 15%);
+    transition: all .3s ease-in-out;
+}
+
+.services__card:hover {
+    transform: translateY(-1.2rem) scale(1.02);
+    box-shadow: 3px 3px 20px rgb(0 0 0 / 25%);
+}
+
+.services__card > * + *{
+ margin-top: 1rem;
+}
+
+.services__card__icon {
+    width: 10rem;
+    height: 10rem;
+}
+
+.services__card__heading {
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.services__card__para {
+    margin-top: 2rem;
+    color: var(--color-gray-1);
+}
+
+/* ------------------------------------------------------------------- */
+
+.input__wrapper {
+    position: relative;
+}
+
+.input__label {
+    position: absolute;
+    display: block;
+    top: 1.2rem;
+    left: 2rem;
+    font-size: 2rem;
+    z-index: 5;
+    color: var(--color-gray-1);
+    transition: all .3s ease-in;
+}
+
+.input__area {
+    padding: 4rem 2rem;
+}
+
+.input__area:focus + .input__label {
+    font-size: 1.7rem;
+}
+
+/* ----------------------------------------------------------------- */
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6rem;
+    height: 6rem;
+}
+
+.owl-prev > span:hover, .owl-next > span:hover {
+    color: var(--color-black);
+}
+
+.owl-prev > span, .owl-next > span {
+    font-size: 8rem;
+    color: var(--color-gray-1);
+    transition: all .3 ease-in-out;
+}
+
+.owl-prev {
+    left: -4rem;
+}
+
+.owl-next {
+    right: -4rem;
+}
+
+@media (max-width: 1280px) {
+    .owl-prev {
+        left: 4rem;
+    }
+    
+    .owl-next {
+        right: 4rem;
+    } 
+}
+
+@media (max-width: 766px) {
+    .owl-prev {
+        left: 10%;
+    }
+    
+    .owl-next {
+        right: 10%;
+    } 
+}
+
+@media (max-width: 650px) {
+    .owl-prev {
+        left: 5%;
+    }
+    
+    .owl-next {
+        right: 5%;
+    } 
+}
+
+@media (max-width: 560px) {
+    .owl-prev, .owl-next {
+        display: none;
+    }
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot > span {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: rgb(208, 208, 208);
+    margin-right: 1rem;
+}
+
+.owl-dot.active > span {
+    background: var(--color-black);
+}
+
+/* ------------------------------------------------------------------------- */
+
+.carousel__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 6rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.15);;
+    width: 50rem;
+    height: 62rem;
+}
+
+.carousel__card__HeadingBox {
+    display: flex;
+    align-items: center;
+}
+
+.carousel__icon {
+    height: 6.4rem;
+    width: 6.4rem;
+    margin-right: 1.2rem;
+}
+
+.carousel__iconInfo {
+    text-align: left;
+}
+
+.carousel__iconInfo--para2 {
+    color: var(--color-gray-1);
+}
+
+.carousel__iconInfo--para2 {
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+.carousel__card > p {
+    color: var(--color-gray-1);
+    max-width: 30ch;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.carousel__growthWrapper {
+    padding: .6rem;
+    border-radius: 10px;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+}
+
+.carousel__growthWrapper {
+    color: var(--color-white);
+}
+
+.carousel__growthIcon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.carousel__graph {
+    width: 100%;
+    height: 50%;
+}
+
+.carousel__button {
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 2rem;
+}
+
+.owl__carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.review__card {
+    height: 27.5rem;
+    width: 44.2rem;
+    padding: 3.2rem 2.4rem;
+    background: var(--color-white);
+    border-radius: 2rem;
+}
+
+.review__card__avatarBox {
+    display: flex;
+    align-items: center;
+}
+
+.review__avatar__ImgBlock {
+    background: pink;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-right: 1.2rem;
+}
+
+.review__avatar--para1 {
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+.review__avatar--para2 {
+    color: var(--color-gray-1);
+    margin-top: .4rem;
+}
+
+.review__maintext {
+    margin-top: 2.4rem;
+    line-height: 1.6;
+    color: var(--color-gray-1);
+}
+
+.review__maintext > span > a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.owl__carousel-2 .owl-item {
+    width: unset;
+}

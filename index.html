@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circlesquare — Grow your wealth with innovative investment funds</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="genralstyle.css">
+    <link rel="stylesheet" href="components.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navigation">
+        <!-- For Large Screens -->
+        <a class="navigation__logo__wrapper" href="#">
+            <img class="nav__logo__img" src="assets/logo.png" alt="logo">
+        </a>
+        <div class="nav__link__wrapper text-extrasmall">
+            <a class="navigation__link" href="#">Home</a>
+            <div class="navigation__link navigation__toggle">
+                <span>Investment products</span>
+                <object type="image/svg+xml" data="assets/nav_arrow.svg">&nbsp;</object>
+                <div class="nav__productSubmenu">
+                    <a href="#" class="text-extrasmall-3">INVESTEMENT PRODUCTS</a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">CRYPTO INDEX</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Cryto20</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">CRYPTO INDEX</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Crypto10 Hedged</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">USA LENDING</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Margin Lending</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">CRYPTO</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Bitcoin Alpha</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">COMMODITY</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Gold Plus</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">RENEWABLE ENERGY</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Emerging Market Solar</p>
+                        </div>
+                    </a>
+                    <a href="#" class="productSubmenu__box">
+                        <object class="productSubmenu__box--icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">VENTURE CAPITAL</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Hyperion VC</p>
+                        </div>
+                    </a>
+                    <a href="#" class="text-extrasmall-3">Staking rewards</a>
+                    <a href="#" class="productSubmenu__box">
+                        <img class="productSubmenu__box--icon productSubmenu__box--iconLogo" src="assets/logo_small_nav.png" alt="Company Logo">
+                        <div>
+                            <p class="productSubmenu__box--tag text-extrasmall-4">COMMUNITY TOKEN</p>
+                            <p class="productSubmenu__box--title text-extrasmall">Circlesquare.com Token</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a class="navigation__link" href="#">About</a>
+            <a class="navigation__link" href="#">News</a>
+        </div>
+        <a class="navigation__lang navigation__toggle text-extrasmall" href="#">
+            <object type="image/svg+xml" data="assets/earth.svg">&nbsp;</object>
+            <span>English</span>
+            <object type="image/svg+xml" data="assets/nav_arrow.svg">&nbsp;</object>
+            <div class="nav__langSub text-center">
+                <div class="nav__langSub__options active">English</div>
+                <div class="nav__langSub__options">Other</div>
+                <div class="nav__langSub__options">Other</div>
+                <div class="nav__langSub__options">Other</div>
+                <div class="nav__langSub__options">Other</div>
+            </div>
+        </a>
+        <a class="navigation__theme" href="#">
+            <object type="image/svg+xml" data="assets/nav_theme.svg">&nbsp;</object>
+        </a>
+        <!-- For small screens Only-->
+        <a class="navigation__menu--small" href="#">
+            <object class="" type="image/svg+xml" data="assets/menu_small.svg">&nbsp;</object>
+        </a>
+        <a class="navigation__logo__wrapper--small" href="#">
+            <img class="nav__logo__img--small" src="assets/logo_small_nav.png" alt="logo">
+        </a>
+        <!------------------------>
+        <a class="navigation__cta button__primary text-extrasmall" href="#">Launch Platform</a>
+    </nav>
+
+    <!-- For small screens Only-->
+    <div class="sidebar__popup">
+        <nav class="mobile__nav text-extrasmall">
+            <div class="mobile__nav__wrapper__links">
+                <a class="navigation__lang navigation__toggle text-extrasmall" href="#">
+                    <object type="image/svg+xml" data="assets/earth.svg"></object>
+                    <span>English</span>
+                    <object type="image/svg+xml" data="assets/nav_arrow.svg"></object>
+                </a>
+                <a class="navigation__link" href="#">Home</a>
+                <a class="navigation__link" href="#">Investment products</a>
+                <a class="navigation__link" href="#">About</a>
+                <a class="navigation__link" href="#">News</a>
+            </div>
+            <div class="mobile__nav__wrapper__toggles">
+                <a class="mobile__nav__lang navigation__toggle text-extrasmall" href="#">
+                    <object type="image/svg+xml" data="assets/earth.svg">&nbsp;</object>
+                    <span>English</span>
+                    <object type="image/svg+xml" data="assets/nav_arrow.svg">&nbsp;</object>
+                    <div class="mobile__nav__langSub text-center">
+                        <div class="mobile__nav__langSub__options active">English</div>
+                        <div class="mobile__nav__langSub__options">Other</div>
+                        <div class="mobile__nav__langSub__options">Other</div>
+                        <div class="mobile__nav__langSub__options">Other</div>
+                        <div class="mobile__nav__langSub__options">Other</div>
+                    </div>
+                </a>
+                <a class="mobile__nav__theme" href="#">
+                    <object type="image/svg+xml" data="assets/nav_theme.svg">&nbsp;</object>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <!------------------------>
+
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__textWrapper">
+                <h1 class="heading__primary hero__heading">Grow your wealth like never before</h1>
+                <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempora possimus amet expedita aliquid magni sequi, laborum numquam? Nemo debitis iste quibusdam aperiam, ullam dolor ipsam perspiciatis? Ipsa.
+                </p>
+                <a class="hero__button button__primary text-extrasmall" href="#">Create your account</a>
+            </div>
+            <div class="hero__imageWrapper">
+                <img class="hero__phone" src="assets/hero_phone.png" alt="Photo of Phone with Portfolio Performance">
+            </div>
+        </div>
+        <div class="hero__partners">
+            <img src="assets/partner1.png" alt="partner">
+            <img src="assets/partner2.png" alt="partner">
+            <img src="assets/partner3.png" alt="partner">
+            <img src="assets/partner4.png" alt="partner">
+            <img src="assets/partner5.png" alt="partner">
+            <img src="assets/partner6.png" alt="partner">
+            <img src="assets/partner7.png" alt="partner">
+        </div>
+    </section>
+
+    <section class="funds">
+        <div class="container">
+            <div class="funds__stats">
+                <div>
+                    <div class="funds__statsBox">
+                        <p class="funds__stats--value heading__secondary">150+</p>
+                        <p class="funds__stats--tag text-small">Countries</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="funds__statsBox">
+                        <p class="funds__stats--value heading__secondary">18,000+</p>
+                        <p class="funds__stats--tag text-small">Investors</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="funds__statsBox">
+                        <p class="funds__stats--value heading__secondary">$140 million</p>
+                        <p class="funds__stats--tag text-small">Assets under management</p>
+                    </div>
+                </div>
+            </div>
+            <div class="funds__content">
+                <div class="funds__text">
+                    <h2 class="heading__secondary">Our investment funds returned<span class="funds__text--highlighted">&nbsp;+228.98%&nbsp;</span>on average over the past year!</h2>
+                    <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex ullam praesentium animi cupiditate, similique voluptas laboriosam. Quasi adipisci perspiciatis aliquid, quaerat.</p>
+                    <a class="button__secondary text-extrasmall" href="#">Download the latest quarterly report</a>
+                </div>
+                <div class="funds__carouselWrapper">
+                        <!-- <object class="carousel__arrow carousel__arrow--left" type="image/svg+xml" data="assets/arrowL.svg">&nbsp;</object>
+                        <object class="carousel__arrow carousel__arrow--right" type="image/svg+xml" data="assets/arrowR.svg">&nbsp;</object> -->
+                    <div class="owl__carousel owl-carousel">
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon1.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">CRYPTO INDEX</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Emerging Market Solar</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in a cryptocurrency index fund with reduced risk</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">100.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph1.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Learn More</a>
+                        </div>
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon2.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">VENTURE CAPITAL</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Hyperion VC</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in blockchain startups with high growth</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">40.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph2.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Learn More</a>
+                        </div>
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon3.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">CRYPTO</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Bitcoin Alpha</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in Bitcoin with reduced risk</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">80.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph1.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Inception</a>
+                        </div>
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon4.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">CRYPTO INDEX</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Emerging Market Solar</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in a cryptocurrency index fund with reduced risk</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">100.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph1.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Learn More</a>
+                        </div>
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon5.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">CRYPTO INDEX</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Emerging Market Solar</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in a cryptocurrency index fund with reduced risk</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">100.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph1.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Learn More</a>
+                        </div>
+                        <div class="carousel__card">
+                            <div class="carousel__card__HeadingBox">
+                                <object class="carousel__icon" type="image/svg+xml" data="assets/cardIcon6.svg">&nbsp;</object>
+                                <div class="carousel__iconInfo">
+                                    <p class="text-extrasmall carousel__iconInfo--para1">CRYPTO INDEX</p>
+                                    <p class="text-lg-sm carousel__iconInfo--para2">Emerging Market Solar</p>
+                                </div>
+                            </div>
+                            <p class="text-xl text-center">Invest in a cryptocurrency index fund with reduced risk</p>
+                            <div class="carousel__growthWrapper">
+                                <object class="carousel__growthIcon" type="image/svg+xml" data="assets/arrowdiagonal.svg">&nbsp;</object>
+                                <p class="text-xl">100.6%</p>
+                            </div>
+                            <object class="carousel__graph" type="image/svg+xml" data="assets/cardGraph1.svg">&nbsp;</object>
+                            <a href="#" class="button__secondary carousel__button text-center text-extrasmall">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="funds__features">
+            <div>
+                <div class="funds__featuresBox">
+                    <p class="funds__features--value text-xl">Venture Capital</p>
+                    <p class="funds__features--tag text-small">with high liquidity</p>
+                </div>
+            </div>
+            <div>
+                <div class="funds__featuresBox">
+                    <p class="funds__features--value text-xl">Gold</p>
+                    <p class="funds__features--tag text-small">with increased returns</p>
+                </div>
+            </div>
+            <div>
+                <div class="funds__featuresBox">
+                    <p class="funds__features--value text-xl">Crypto Funds</p>
+                    <p class="funds__features--tag text-small">with superior diversification</p>
+                </div>
+            </div>
+            <div>
+                <div class="funds__featuresBox">
+                    <p class="funds__features--value text-xl">USD Fixed Income</p>
+                    <p class="funds__features--tag text-small">with stable growth</p>
+                </div>
+            </div>
+            <div>
+                <div class="funds__featuresBox">
+                    <p class="funds__features--value text-xl">Renewable Energy</p>
+                    <p class="funds__features--tag text-small">with positive societal impact</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="investmethods">
+            <div class="text-center"><h2 class="investmethods__heading text-xl">Now accepting:</h2></div>
+            <div class="investmethods__content">
+                <div class="investmethods__block investmethods__block--1">
+                    <div class="paymentCard paymentCard--1">
+                        <object type="image/svg+xml" data="assets/payment1.svg">&nbsp;</object>
+                    </div>
+                    <div class="paymentCard paymentCard--1">
+                        <object type="image/svg+xml" data="assets/payment2.svg">&nbsp;</object>
+                    </div>
+                    <div class="paymentCard paymentCard--1">
+                        <object type="image/svg+xml" data="assets/payment3.svg">&nbsp;</object>
+                    </div>
+                    <div class="paymentCard paymentCard--1">
+                        <object type="image/svg+xml" data="assets/payment4.svg">&nbsp;</object>
+                    </div>
+                </div>
+                <div class="investmethods__block__divider">&nbsp;</div>
+                <div class="investmethods__block investmethods__block--2">
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment5.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">TUSD</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">TrueUSD</p>
+                        </div>
+                    </div>
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment6.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">USDT</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">Tether</p>
+                        </div>
+                    </div>
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment7.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">ETH</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">Ethereum</p>
+                        </div>
+                    </div>
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment8.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">DASH</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">Dash</p>
+                        </div>
+                    </div>
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment9.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">BTC</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">Bitcoin</p>
+                        </div>
+                    </div>
+                    <div class="paymentCard paymentCard--2">
+                        <object type="image/svg+xml" data="assets/payment10.svg">&nbsp;</object>
+                        <div class="paymentCard--2__details">
+                            <p class="paymentCard--2__details--para1 text-extrasmall-2">BUSD</p>
+                            <p class="paymentCard--2__details--para2 text-extrasmall-2">Binance USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="ceomsg">
+            <div class="ceomsg__wrapper">
+                <div class="ceomsg__img__block">
+                    <img class="ceo__msg__img" src="assets/man_with_laptop.png" alt="Photo of a Hard Working Man">
+                </div>
+                <div class="ceomsg__text__block">
+                    <h2 class="heading__secondary">We’re an investment company making wealth creation accessible to everyone</h2>
+                    <div class="ceomsg__text__divider">&nbsp;</div>
+                    <p class="text-xl">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quibusdam eaque rerum? Adipisci, at ab nostrum dolor quia quos sint blanditiis dicta saepe ipsum repellat, eius quidem? Magnam, labore aper"</p>
+                    <div class="personBox ceomsg__ceo__block">
+                        <div class="person__img__wrapper">&nbsp;</div>
+                        <div class="person__info text-extrasmall">
+                            <p class="person__name">Anthony Person</p>
+                            <p class="person__about">CEO of Circle Square</p>
+                        </div>
+                    </div>
+                    <a class="button__secondary text-extrasmall" href="#">Read about Circle Square Team</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="services">
+            <div class="text-center">
+                <h2 class="text-lg services__heading"><span class="services__highlighted">The blockchain-powered investment platform</span><br>that makes crypto investing easy</h2>
+            </div>
+            <div class="services__card__wrapper">
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services1.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Invest any amount</h3>
+                        <p class="text-extrasmall services__card__para">Invest in our index funds with as little as $1 through our investment platform</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services2.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Build a balanced portfolio</h3>
+                        <p class="text-extrasmall services__card__para">Invest in gold, startups and Bitcoin amongst a variety of asset classes</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services3.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Withdraw any time</h3>
+                        <p class="text-extrasmall services__card__para">Our investment funds have no lock-up, you are able to withdraw 24/7</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services4.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Control your assets</h3>
+                        <p class="text-extrasmall services__card__para">The Invictus Wallet makes asset management easy and intuitive.</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services5.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Invest from anywhere</h3>
+                        <p class="text-extrasmall services__card__para">A global Investment company with investors from over 150 countries</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services6.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Security & transparency</h3>
+                        <p class="text-extrasmall services__card__para">Your fund holdings are secured by the blockchain and reported in real-time</p>
+                    </div>
+                </div>
+                <div class="services__card__outer">
+                    <div class="services__card text-center">
+                        <object class="services__card__icon" type="image/svg+xml" data="assets/services7.svg"></object>
+                        <h3 class="text-small services__card__heading .text-small">Easy sign up</h3>
+                        <p class="text-extrasmall services__card__para">Fast and seamless digital onboarding into our investment funds</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="text-center reviews__heading__block">
+                <h2 class="reviews__heading text-lg">Join our community of modern Investors</h2>
+                <p class="reviews__para text-lg-sm">Thousands of investors across the world use our platform and investment funds to grow their wealth</p>
+            </div>
+        </div>
+        
+        <div class="reviews__carousel">
+            <div class="owl__carousel-2 owl-carousel">
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="review__card__avatarBox">
+                        <div class="review__avatar__ImgBlock">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text-extrasmall-2">
+                            <p class="review__avatar--para1">Anthony Person</p>
+                            <p class="review__avatar--para2">@Anthony_Person</p>
+                        </div>
+                    </div>
+                    <p class="text-extrasmall review__maintext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloribus sit dolores, repellendus nobis repellat soluta aspernatur excepturi voluptatibus nemo?<span><a href="#">&nbsp;Read More</a>
+                    </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <p class="reviews__para text-lg-sm text-center">Chat to us and our community members.</p>
+        <div class="reviews__social">
+            <a class="reviews__socialButton" href="#">
+                <object class="services__card__icon" type="image/svg+xml" data="assets/tele.svg"></object>
+                <p class="text-extrasmall">Telegram</p>
+            </a>
+            <a class="reviews__socialButton" href="#">
+                <object class="services__card__icon" type="image/svg+xml" data="assets/discord.svg"></object>
+                <p class="text-extrasmall">Telegram</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe__main__block">
+                <div class="subscribe__heading__block text-center">
+                    <img src="assets/logo.png" alt="logo">
+                    <h2 class="text-lg subscribe__heading">Weekly Market Wrap</h2>
+                </div>
+                <p class="text-extrasmall subscribe__para">Get our popular and informative blockchain and investment newsletter for free</p>
+            </div>
+            <div class="subscribe__email__block">
+                <textarea class="subscribe__input" type="text" id="subscribe__email" name="Email"></textarea>
+                <label class="subscribe__label" for="subscribe__email">&nbsp;</label>
+                <a class="button__primary subscribe__button text-xl" href="#">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="account text-center">
+        <a href="#" class="button__primary text-xl account__button">Create a new Account</a>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo__box">
+                    <img class="footer__logo" src="assets/logo_small_nav.png" alt="">
+                </div>
+                <div class="footer__links__block">
+                    <span class="footer__link footer__link--main text-extrasmall">Investment Products</span>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Bitcoin Alpha</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Gold Plus</span>
+                    </a>
+                        
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Emerging Market Solar</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Margin Lending</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Crypto10 Hedged</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Hyperion VC</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Crypto20</span>
+                    </a>
+                </div>
+                <div class="footer__links__block">
+                    <span class="footer__link footer__link--main text-extrasmall">RESOURCES</span>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Investor portal</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Community</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">News</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Investment products</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Help</span>
+                    </a>
+                </div>
+                <div class="footer__links__block">
+                    <span class="footer__link footer__link--main text-extrasmall">COMPANY</span>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Join the team</span>
+                    </a>
+                    <a href="#">
+                        <span class="footer__link text-extrasmall">Feedback</span>
+                    </a>    
+                </div>
+                <div class="footer__links__block">
+                    <span class="footer__link footer__link--main text-extrasmall">WEEKLY NEWSLETTER</span>
+                    <span class="footer__link text-extrasmall">Stay up to date on product & market news</span>
+                    <div class="footer__input__Block input__wrapper">
+                        <textarea class="footer__input input__area" type="text" id="footer__email" name="Email"></textarea>
+                        <label class="input__label" for="footer__email">Email</label>
+                    </div>
+                    <a class="button__primary text-extrasmall text-center" href="#">Subscribe</a>
+                    <p class="footer__follow__text text-extrasmall">FOLLOW US</p>
+                    <div class="footer__scocial__wrapper">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer__info">
+                <p class="footer__para">George Town, Cayman Islands | +1 (345) XXX-XXXX | info@circlesquare.com</p>
+                <!-- <p class="footer__para footer__para--bold text-extrasmall-2">Invictus Capital Financial Technologies SPC has submitted an application for registration as a Virtual Asset Service Provider in the Cayman Islands. This registration application is pending (ID number 1382154).</p> -->
+                <p class=" footer__para text-extrasmall-2">IMPORTANT LEGAL DISCLAIMER Access to products and services detailed on this website may be restricted for certain persons or countries. In particular, the products and services referred to herein are not available to U.S. Persons, as defined by Regulation S of the United States Securities and Exchange Commission, as amended (“U.S. Persons”). The information contained on this website is not available to U.S. Persons. Investors who are such "U.S. Persons" should not view this website. The provision of the information in this website does not constitute an offer of securities to any person in the United States or to any "U.S. Person." Circle Square is not registered under the U.S. Investment Company Act of 1940, as amended, nor is the sale of Invictus tokens registered under the U.S. Securities Act of 1933, as amended. Consequently, it cannot be offered for sale or be sold in the United States, its territories, possessions or protectorates under its jurisdiction, nor to nationals, citizens or residents in any of those areas, except pursuant to a valid exemption. More generally, the products and services presented on this website may only be purchased in jurisdictions in which their marketing and distribution are authorized. Circle Square advises all interested parties to check in advance whether they are legally entitled to purchase the products and/or services presented on the website.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="carousel.js"></script>
+</body>
+</html>
